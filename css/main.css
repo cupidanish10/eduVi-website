@@ -8285,19 +8285,19 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: "Metropolis Regular";
-  src: url("/fonts/Metropolis/Metropolis-Regular.otf") format("opentype");
+  src: url("https://cupidanish10.github.io/eduVi-website/fonts/Metropolis/Metropolis-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: "Metropolis Medium";
-  src: url("/fonts/Metropolis/Metropolis-Medium.otf") format("opentype");
+  src: url("https://cupidanish10.github.io/eduVi-website/fonts/Metropolis/Metropolis-Medium.otf") format("opentype");
 }
 @font-face {
   font-family: "Metropolis SemiBold";
-  src: url("/fonts/Metropolis/Metropolis-SemiBold.otf") format("opentype");
+  src: url("https://cupidanish10.github.io/eduVi-website/fonts/Metropolis/Metropolis-SemiBold.otf") format("opentype");
 }
 @font-face {
   font-family: "Metropolis Bold";
-  src: url("/fonts/Metropolis/Metropolis-Bold.otf") format("opentype");
+  src: url("https://cupidanish10.github.io/eduVi-website/fonts/Metropolis/Metropolis-Bold.otf") format("opentype");
 }
 /* font family*/
 /* $brand-secondary-font:'Quicksand', sans-serif; */
