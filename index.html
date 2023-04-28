@@ -99,25 +99,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item nav-item-spaced dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  For School
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
+             
               <li class="nav-item nav-item-spaced dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -145,20 +127,20 @@
           class="navbar-nav align-items-lg-center d-flex flex-row ml-lg-auto second-group"
         >
           <li class="nav-item">
-            <a class="nav-link d-flex" href="pages/authentication/login-basic.html"
-              > <span class="d-none d-xl-block">Cart(0)</span>  <img src="img/icons/bag.svg" alt="shopping bag" /></a
+            <a class="nav-link d-flex align-items-center" href="cart.html"
+              > <span class="d-none d-xl-block pe-2">Cart(0)</span>  <img src="img/icons/bag.svg" alt="shopping bag" /></a
             >
            
           </li>
           <li class="nav-item nav-item-spaced dropdown">
             <a
-              class="nav-link d-flex dropdown-toggle"
+              class="nav-link d-flex align-items-center dropdown-toggle"
               href="#"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-            <span class="d-none d-xl-block"> My Account </span> <img src="img/icons/profile.svg" alt="profile" />
+            <span class="d-none d-xl-block pe-2"> My Account </span> <img src="img/icons/profile.svg" alt="profile" />
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -209,14 +191,15 @@
                         <input type="hidden" />
                         <ul class="dropdown-menu" style="">
                           <li>
-                            <a class="dropdown-item" href="#"
+                            
+                            <a role="option" class="dropdown-item" tabindex="0" aria-setsize="4" aria-posinset="2"
                               ><span class="dropdown-item-label"
                                 >High School</span
                               ></a
                             >
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#"
+                            <a class="dropdown-item" role="option" class="dropdown-item" tabindex="0" aria-setsize="4" aria-posinset="2"
                               ><span class="dropdown-item-label"
                                 >College</span
                               ></a
@@ -252,21 +235,21 @@
             </div>
 
             <div class="col-md-6 position-relative">
-              <figure class="text-center">
-                <img src="img/hero/hero.svg" alt="" />
+              <figure class="text-center hero-figure">
+                <img src="img/hero/hero.svg" alt="hero image" />
               </figure>
               <div
-                class="p-2 bg-white shadow rounded-3 position-absolute top-0 start-0 translate-middle-y d-none d-sm-block"
+                class="p-2 bg-white shadow rounded-3 position-absolute top-0 start-0 msn-1 translate-middle-y d-none d-sm-block"
               >
                 <img src="img/hero/book.svg" alt="book Icon" />
               </div>
               <div
-                class="p-2 bg-white shadow rounded-3 position-absolute top-50 start-0 translate-middle-y ms-4 mtn-2 d-none d-sm-block"
+                class="p-2 bg-white shadow rounded-3 position-absolute top-50 start-0 translate-middle-y ms-5 mtn-2 d-none d-sm-block"
               >
                 <img src="img/hero/presentation 1.svg" alt="presentation Icon" />
               </div>
               <div
-                class="p-2 bg-white shadow rounded-3 position-absolute top-0 end-0 me-7 mt-5"
+                class="p-2 bg-white shadow rounded-3 position-absolute top-0 end-0 me-7 mt-4"
               >
                 <img src="img/hero/lightbulb 1.svg" alt="bulb Icon" />
               </div>
@@ -307,10 +290,10 @@
                 <div class="position-absolute call-wrapper">
                   <div class="d-flex align-items-end justify-content-between">
                     <div class="small-video">
-                      <img src="img/little-girl.png" class="img-fluid" alt="" />
+                      <img src="img/little-girl.png" class="img-fluid" alt="call" />
                     </div>
                     <div class="cancel-btn icon-lg bg-secondary rounded-circle">
-                      <img src="img/icons/call.svg" alt="call" />
+                      <img src="img/icons/call.svg" alt="cancel call" />
                     </div>
                     <div class="more-btn icon-lg bg-primary rounded-circle">
                       <img src="img/icons/arrow-up.svg" alt="more arrow" />
@@ -441,7 +424,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
                   <div class="card border-0 service-card align-items-center flex-row">
                     <div class="icon-xl bg-primary-soft me-4">
-                      <img src="img/live.svg" alt="speaker">
+                      <img src="img/live.svg" alt="live">
                     </div>
                     <div class="content">
                       <h3> Live Classes </h3>
@@ -452,7 +435,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
                   <div class="card border-0 service-card align-items-center flex-row">
                     <div class="icon-xl bg-danger-soft me-4">
-                      <img src="img/recorded.svg" alt="speaker">
+                      <img src="img/recorded.svg" alt="recorded">
                     </div>
                     <div class="content">
                       <h3> Recorded Classes </h3>
@@ -478,152 +461,473 @@
           </div>
 
           <div class="row">
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-              <div class="card border-0 text-center lesson-card">
-                <img src="img/lessons/1.svg" class="img-fluid" alt="lesson 1" />
-                <div class="card-body pb-0">
-                  <h3>Standard One</h3>
-                  <p>
-                    Standard 1 is a foundation Standard that reflects 7
-                    important concepts Standard that reflects 7
-                    important concepts
-                  </p>
-                  <div class="mt-4">
-                    <a href="" class="btn btn-outline-primary">
-                      Class Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-              <div class="card border-0 text-center lesson-card">
-                <img src="img/lessons/2.svg" class="img-fluid" alt="lesson 1" />
-                <div class="card-body pb-0">
-                  <h3>Standard Two</h3>
-                  <p>
-                    Standard 2 builds on the foundations of Standard 1 and includes requirementsof Standard 1 and includes requirements
-                  </p>
-                  <div class="mt-4">
-                    <a href="" class="btn btn-outline-primary">
-                      Class Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-              <div class="card border-0 text-center lesson-card">
-                <img src="img/lessons/3.svg" class="img-fluid" alt="lesson 1" />
-                <div class="card-body pb-0">
-                  <h3>Standard Three</h3>
-                  <p>
-                    Standard 3 of the Aged Care Quality Standards applies to all services delivering personal includes requirements
-                  </p>
-                  <div class="mt-4">
-                    <a href="" class="btn btn-outline-primary">
-                      Class Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-              <div class="card border-0 text-center lesson-card">
-                <img src="img/lessons/4.svg" class="img-fluid" alt="lesson 1" />
-                <div class="card-body pb-0">
-                  <h3>Standard Four</h3>
-                  <p>
-                    Standard 4 of the Aged Care Quality Standards focuses on services and supports personal includes requirements
-                  </p>
-                  <div class="mt-4">
-                    <a href="" class="btn btn-outline-primary">
-                      Class Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-              <div class="card border-0 text-center lesson-card">
-                <img src="img/lessons/5.svg" class="img-fluid" alt="lesson 1" />
-                <div class="card-body pb-0">
-                  <h3>Standard Five</h3>
-                  <p>
-                    Standard 5 Learning Resources. Learning Resources ensure that the school has the supports personal includes requirements
-                  </p>
-                  <div class="mt-4">
-                    <a href="" class="btn btn-outline-primary">
-                      Class Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-              <div class="card border-0 text-center lesson-card">
-                <img src="img/lessons/6.svg" class="img-fluid" alt="lesson 1" />
-                <div class="card-body pb-0">
-                  <h3>Standard Six</h3>
-                  <p>
-                    Standard 6 requires an organisation to have a system to resolve complaints school has the supports personal includes requirements
-                  </p>
-                  <div class="mt-4">
-                    <a href="" class="btn btn-outline-primary">
-                      Class Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-                <div class="card border-0 text-center lesson-card">
-                  <img src="img/lessons/7.svg" class="img-fluid" alt="lesson 1" />
-                  <div class="card-body pb-0">
-                    <h3>Standard Seven</h3>
-                    <p>
-                      Standard 7 Blood Management mandates that leaders of health service organisations system to resolve complaints school has the supports personal includes requirements
-                    </p>
-                    <div class="mt-4">
-                      <a href="" class="btn btn-outline-primary">
-                        Class Details
-                      </a>
+            <div class="col-md-12">
+              <ul class="nav nav-pills brand-pills mb-5 justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Kindergarten</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">High School</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">College</button>
+                </li>
+               
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/1.svg" class="img-fluid" alt="lesson 1" />
+                        <div class="card-body pb-0">
+                          <h3>Standard One</h3>
+                          <p>
+                            Standard 1 is a foundation Standard that reflects 7
+                            important concepts Standard that reflects 7
+                            important concepts
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/2.svg" class="img-fluid" alt="lesson 2" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Two</h3>
+                          <p>
+                            Standard 2 builds on the foundations of Standard 1 and includes requirementsof Standard 1 and includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/3.svg" class="img-fluid" alt="lesson 3" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Three</h3>
+                          <p>
+                            Standard 3 of the Aged Care Quality Standards applies to all services delivering personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/4.svg" class="img-fluid" alt="lesson 4" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Four</h3>
+                          <p>
+                            Standard 4 of the Aged Care Quality Standards focuses on services and supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/5.svg" class="img-fluid" alt="lesson 5" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Five</h3>
+                          <p>
+                            Standard 5 Learning Resources. Learning Resources ensure that the school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/6.svg" class="img-fluid" alt="lesson 6" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Six</h3>
+                          <p>
+                            Standard 6 requires an organisation to have a system to resolve complaints school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card border-0 text-center lesson-card">
+                          <img src="img/lessons/7.svg" class="img-fluid" alt="lesson 7" />
+                          <div class="card-body pb-0">
+                            <h3>Standard Seven</h3>
+                            <p>
+                              Standard 7 Blood Management mandates that leaders of health service organisations system to resolve complaints school has the supports personal includes requirements
+                            </p>
+                            <div class="mt-4">
+                              <a href="" class="btn btn-outline-primary">
+                                Class Details
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/8.svg" class="img-fluid" alt="lesson 8" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Eight</h3>
+                          <p>
+                            Standard 8 Course from NCERT Solutions help students to understand service organisations system to resolve complaints school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+         
                   </div>
                 </div>
-
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-              <div class="card border-0 text-center lesson-card">
-                <img src="img/lessons/8.svg" class="img-fluid" alt="lesson 1" />
-                <div class="card-body pb-0">
-                  <h3>Standard Eight</h3>
-                  <p>
-                    Standard 8 Course from NCERT Solutions help students to understand service organisations system to resolve complaints school has the supports personal includes requirements
-                  </p>
-                  <div class="mt-4">
-                    <a href="" class="btn btn-outline-primary">
-                      Class Details
-                    </a>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/1.svg" class="img-fluid" alt="lesson 1" />
+                        <div class="card-body pb-0">
+                          <h3>Standard One</h3>
+                          <p>
+                            Standard 1 is a foundation Standard that reflects 7
+                            important concepts Standard that reflects 7
+                            important concepts
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/2.svg" class="img-fluid" alt="lesson 2" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Two</h3>
+                          <p>
+                            Standard 2 builds on the foundations of Standard 1 and includes requirementsof Standard 1 and includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/3.svg" class="img-fluid" alt="lesson 3" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Three</h3>
+                          <p>
+                            Standard 3 of the Aged Care Quality Standards applies to all services delivering personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/4.svg" class="img-fluid" alt="lesson 4" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Four</h3>
+                          <p>
+                            Standard 4 of the Aged Care Quality Standards focuses on services and supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/5.svg" class="img-fluid" alt="lesson 5" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Five</h3>
+                          <p>
+                            Standard 5 Learning Resources. Learning Resources ensure that the school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/6.svg" class="img-fluid" alt="lesson 6" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Six</h3>
+                          <p>
+                            Standard 6 requires an organisation to have a system to resolve complaints school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card border-0 text-center lesson-card">
+                          <img src="img/lessons/7.svg" class="img-fluid" alt="lesson 7" />
+                          <div class="card-body pb-0">
+                            <h3>Standard Seven</h3>
+                            <p>
+                              Standard 7 Blood Management mandates that leaders of health service organisations system to resolve complaints school has the supports personal includes requirements
+                            </p>
+                            <div class="mt-4">
+                              <a href="" class="btn btn-outline-primary">
+                                Class Details
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/8.svg" class="img-fluid" alt="lesson 8" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Eight</h3>
+                          <p>
+                            Standard 8 Course from NCERT Solutions help students to understand service organisations system to resolve complaints school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+         
                   </div>
                 </div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/1.svg" class="img-fluid" alt="lesson 1" />
+                        <div class="card-body pb-0">
+                          <h3>Standard One</h3>
+                          <p>
+                            Standard 1 is a foundation Standard that reflects 7
+                            important concepts Standard that reflects 7
+                            important concepts
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/2.svg" class="img-fluid" alt="lesson 2" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Two</h3>
+                          <p>
+                            Standard 2 builds on the foundations of Standard 1 and includes requirementsof Standard 1 and includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/3.svg" class="img-fluid" alt="lesson 3" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Three</h3>
+                          <p>
+                            Standard 3 of the Aged Care Quality Standards applies to all services delivering personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/4.svg" class="img-fluid" alt="lesson 4" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Four</h3>
+                          <p>
+                            Standard 4 of the Aged Care Quality Standards focuses on services and supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/5.svg" class="img-fluid" alt="lesson 5" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Five</h3>
+                          <p>
+                            Standard 5 Learning Resources. Learning Resources ensure that the school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/6.svg" class="img-fluid" alt="lesson 6" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Six</h3>
+                          <p>
+                            Standard 6 requires an organisation to have a system to resolve complaints school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card border-0 text-center lesson-card">
+                          <img src="img/lessons/7.svg" class="img-fluid" alt="lesson 7" />
+                          <div class="card-body pb-0">
+                            <h3>Standard Seven</h3>
+                            <p>
+                              Standard 7 Blood Management mandates that leaders of health service organisations system to resolve complaints school has the supports personal includes requirements
+                            </p>
+                            <div class="mt-4">
+                              <a href="" class="btn btn-outline-primary">
+                                Class Details
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      <div class="card border-0 text-center lesson-card">
+                        <img src="img/lessons/8.svg" class="img-fluid" alt="lesson 8" />
+                        <div class="card-body pb-0">
+                          <h3>Standard Eight</h3>
+                          <p>
+                            Standard 8 Course from NCERT Solutions help students to understand service organisations system to resolve complaints school has the supports personal includes requirements
+                          </p>
+                          <div class="mt-4">
+                            <a href="" class="btn btn-outline-primary">
+                              Class Details
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+         
+                  </div>
+                </div>
+               
               </div>
-
             </div>
- 
           </div>
+
+        
 
           <div class="row mt-4">
             <div class="col-md-12 text-center">
@@ -658,7 +962,7 @@
         
                     <div class="col-md-7 pe-0 position-relative">
                       <figure class="text-center">
-                        <img src="img/college-level.svg" alt="" />
+                        <img src="img/college-level.svg" alt="college level" />
                       </figure>
                       <div
                         class="p-2 bg-white shadow rounded-3 position-absolute top-0 start-0 translate-middle-y d-none d-sm-block"
@@ -694,7 +998,7 @@
           <div class="row align-items-center">
             <div class="col-md-6 position-relative">
               <figure class="text-center px-5">
-                <img src="img/mentor.png" class="img-fluid" alt="" />
+                <img src="img/mentor.png" class="img-fluid" alt="mentor" />
               </figure>
              
             </div>
@@ -741,32 +1045,32 @@
                 <div
                 class="avatar-sm rounded-3 position-absolute top-0 start-0 mt-6 ms-4 translate-middle-y d-none d-lg-block"
               >
-                <img src="img/suscribe/avatar-1.png" alt="book Icon" />
+                <img src="img/suscribe/avatar-1.png" alt="avatar 1 Icon" />
               </div>
               <div
                 class="avatar-sm rounded-3 position-absolute top-50 start-0 translate-middle-y ms-12 mt-2 d-none d-lg-block"
               >
-                <img src="img/suscribe/avatar-2.png" alt="presentation Icon" />
+                <img src="img/suscribe/avatar-2.png" alt="avatar 2 Icon" />
               </div>
               <div
                 class="avatar-sm rounded-3 position-absolute bottom-0 start-0 translate-middle-y ms-5 mtn-2 d-none d-lg-block"
               >
-                <img src="img/suscribe/avatar-3.png" alt="presentation Icon" />
+                <img src="img/suscribe/avatar-3.png" alt="avatar 3 Icon" />
               </div>
               <div
                 class="avatar-sm rounded-3 position-absolute top-0 end-0 me-6 mt-5 d-none d-lg-block z-index-9"
               >
-                <img src="img/suscribe/avatar-4.png" alt="bulb Icon" />
+                <img src="img/suscribe/avatar-4.png" alt="avatar 4 Icon" />
               </div>
               <div
                 class="avatar-sm rounded-3 position-absolute top-50 end-0 translate-middle-y mb-5 me-12 d-none d-lg-block z-index-9"
               >
-                <img src="img/suscribe/avatar-5.png" alt="block Icon" />
+                <img src="img/suscribe/avatar-5.png" alt="avatar 5 Icon" />
               </div>
               <div
                 class="avatar-sm rounded-3 position-absolute bottom-0 end-0 translate-middle-y mb-1 me-5 d-none d-lg-block z-index-9"
               >
-                <img src="img/suscribe/avatar-6.png" alt="block Icon" />
+                <img src="img/suscribe/avatar-6.png" alt="avatar 6 Icon" />
               </div>
 
               </div>
