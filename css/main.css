@@ -4509,6 +4509,38 @@ textarea.form-control-lg {
     overflow-y: auto;
   }
 }
+.breadcrumb {
+  --bs-breadcrumb-padding-x: 0;
+  --bs-breadcrumb-padding-y: 0;
+  --bs-breadcrumb-margin-bottom: 1rem;
+  --bs-breadcrumb-bg: ;
+  --bs-breadcrumb-border-radius: ;
+  --bs-breadcrumb-divider-color: #6c757d;
+  --bs-breadcrumb-item-padding-x: 0.5rem;
+  --bs-breadcrumb-item-active-color: #6c757d;
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);
+  margin-bottom: var(--bs-breadcrumb-margin-bottom);
+  font-size: var(--bs-breadcrumb-font-size);
+  list-style: none;
+  background-color: var(--bs-breadcrumb-bg);
+  border-radius: var(--bs-breadcrumb-border-radius);
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: var(--bs-breadcrumb-item-padding-x);
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: var(--bs-breadcrumb-item-padding-x);
+  color: var(--bs-breadcrumb-divider-color);
+  content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+}
+.breadcrumb-item.active {
+  color: var(--bs-breadcrumb-item-active-color);
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -8405,6 +8437,10 @@ textarea.form-control-lg {
   }
 }
 @font-face {
+  font-family: "Metropolis Light";
+  src: url("/fonts/Metropolis/Metropolis-Light.otf") format("opentype");
+}
+@font-face {
   font-family: "Metropolis Regular";
   src: url("/fonts/Metropolis/Metropolis-Regular.otf") format("opentype");
 }
@@ -8477,6 +8513,11 @@ h2 + p, .h2 + p {
 
 a, a:hover, a:focus, .btn, .btn-link, .btn-link:hover {
   text-decoration: none;
+}
+
+.title {
+  font-size: 30px !important;
+  margin-bottom: 20px;
 }
 
 .ms-12 {
@@ -8608,6 +8649,9 @@ a, a:hover, a:focus, .btn, .btn-link, .btn-link:hover {
   padding-left: 2rem;
   transition: 0.1s all;
 }
+.header-static .navbar-nav.first-group .nav-item .nav-link.active {
+  color: #9C4DF4;
+}
 @media (max-width: 1200px) {
   .header-static .navbar-nav.first-group .nav-item .nav-link {
     padding-left: 1rem;
@@ -8719,6 +8763,19 @@ a, a:hover, a:focus, .btn, .btn-link, .btn-link:hover {
   padding: 15px;
   border-radius: 10px;
 }
+.card.popular-card, .card.product-card {
+  padding: 20px !important;
+}
+.card.popular-card .card-title, .card.popular-card .card-price, .card.product-card .card-title, .card.product-card .card-price {
+  font-family: "Metropolis SemiBold" !important;
+  font-size: 18px;
+  line-height: 20px;
+  color: #0A033C;
+}
+.card.product-card h5, .card.product-card .h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
 
 .icon-lg {
   width: 3.5rem;
@@ -8782,6 +8839,23 @@ a, a:hover, a:focus, .btn, .btn-link, .btn-link:hover {
 }
 .suscribe-form .form-control::placeholder {
   color: #fff;
+}
+
+.subbanner {
+  background: #EDE9F2;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+.subbanner h2, .subbanner .h2 {
+  font-family: "Metropolis Medium" !important;
+  font-weight: 600;
+}
+
+.brand-breadcrumb .breadcrumb-item a {
+  color: rgba(10, 3, 60, 0.4);
+}
+.brand-breadcrumb .breadcrumb-item.active {
+  color: #9C4DF4;
 }
 
 .social-btn {

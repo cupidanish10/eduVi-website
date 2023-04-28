@@ -1,4 +1,10 @@
 @font-face {
+font-family: "Metropolis Light"; // 300
+src: 
+        url('/fonts/Metropolis/Metropolis-Light.otf') format('opentype')
+    
+}
+@font-face {
 font-family: "Metropolis Regular"; // 400
 src: 
         url('/fonts/Metropolis/Metropolis-Regular.otf') format('opentype')
@@ -27,6 +33,7 @@ src:
 
 
  /* font family*/
+ $brand-primary-font-light: "Metropolis Light";
  $brand-primary-font-regular: "Metropolis Regular";
  $brand-primary-font-medium: "Metropolis Medium";
  $brand-primary-font-semibold: "Metropolis SemiBold";

@@ -57,6 +57,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "../brand-framework/scss/navbar";
 @import "../brand-framework/scss/card";
 @import "../brand-framework/scss/modal";
+@import "../brand-framework/scss/breadcrumb";
 // Helpers
 // @import "../brand-framework/scss/helpers";
 
@@ -126,6 +127,12 @@ html {
 
   a, a:hover, a:focus, .btn, .btn-link,.btn-link:hover{
     text-decoration: none;
+  }
+
+  .title {
+    font-size: 30px!important;
+    margin-bottom: 20px;
+
   }
 
   .ms-12 {
@@ -262,6 +269,10 @@ html {
           padding-right: 1rem;
           padding-left: 2rem;
           transition: .1s all;
+
+          &.active {
+            color: $primary;
+          }
   
           @media (max-width: 1200px) { 
             padding-left: 1rem;
@@ -407,6 +418,25 @@ html {
     padding: 15px;
     border-radius: 10px;
   }
+
+  &.popular-card, &.product-card {
+    padding: 20px!important;
+    .card-title, .card-price  {
+      font-family: $brand-primary-font-semibold!important;
+      font-size: 18px;
+      line-height: 20px;
+      color: $dark-blue;
+
+      
+    }
+  }
+
+  &.product-card {
+    h5 {
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .icon-lg {
@@ -482,6 +512,29 @@ html {
   }
 
 
+}
+
+.subbanner {
+  background: #EDE9F2;
+    border-radius: 20px;
+    padding: 20px 30px;
+
+    h2 {
+      font-family: $brand-primary-font-medium!important;
+      font-weight: 600;
+    }
+}
+
+.brand-breadcrumb {
+  .breadcrumb-item {
+    a {
+      color: #0A033C66;
+    }
+
+    &.active {
+      color: $primary;
+    }
+  }
 }
 
 .social-btn {
