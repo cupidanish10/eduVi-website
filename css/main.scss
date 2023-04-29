@@ -58,6 +58,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "../brand-framework/scss/card";
 @import "../brand-framework/scss/modal";
 @import "../brand-framework/scss/breadcrumb";
+@import "../brand-framework/scss/pagination";
 // Helpers
 // @import "../brand-framework/scss/helpers";
 
@@ -473,6 +474,17 @@ html {
   }
 }
 
+.filter-search {
+
+  .form-select {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 13px 25px !important;
+    border: none;
+
+  }
+}
+
 .section-bg {
   background: #EDE9F2;
   border-radius: 20px;
@@ -535,6 +547,10 @@ html {
       color: $primary;
     }
   }
+}
+
+.brand-pagination {
+  
 }
 
 .social-btn {

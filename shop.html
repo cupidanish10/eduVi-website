@@ -353,26 +353,492 @@
                     </aside>
 
                     <div class="col-xl-8 col-xxl-9">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card border-0 product-card">
-                                    <img src="img/products/product-1.svg" class="card-img-top" alt="...">
-                                    <div class="card-body p-0">
-                                        <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <p class="card-price text-secondary m-0"> $39.00 </p>
-                                            <ul class="list-unstyled d-flex mb-2">
-                                                <li><img src="/img/icons/star.svg"/></li>
-                                                <li><img src="/img/icons/star.svg"/></li>
-                                                <li><img src="/img/icons/star.svg"/></li>
-                                                <li><img src="/img/icons/star.svg"/></li>
-                                                <li><img src="/img/icons/star.svg"/></li>
-                                            </ul>
+                        <ul class="nav nav-pills brand-pills" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All Books</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="kindergarten-tab" data-bs-toggle="tab" data-bs-target="#kindergarten-tab-pane" type="button" role="tab" aria-controls="kindergarten-tab-pane" aria-selected="false">Kindergarten</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="highschool-tab" data-bs-toggle="tab" data-bs-target="#highschool-tab-pane" type="button" role="tab" aria-controls="highschool-tab-pane" aria-selected="false">High School</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="college-tab" data-bs-toggle="tab" data-bs-target="#college-tab-pane" type="button" role="tab" aria-controls="college-tab-pane" aria-selected="false">College</button>
+                            </li>
+                          
+                          </ul>
+                           <!-- search and filter starts -->
+                        <form action="#" class="form-group d-block my-4">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="search-bar p-3 p-lg-1 ps-lg-4">
+                                        <div class="row">
+                                         
+                                          <div class="col-lg-9 d-flex align-items-center form-group">
+                                            <input
+                                              class="form-control border-0 shadow-0"
+                                              type="text"
+                                              name="search"
+                                              placeholder="Serach Class, Course, Book Name"
+                                            />
+                                          </div>
+                      
+                                          <div class="col-lg-3 d-grid">
+                                            <button
+                                              class="btn btn-primary h-100 d-flex justify-content-center"
+                                              type="submit"
+                                            >
+                                              <img
+                                                src="img/icons/magnifier.svg"
+                                                alt="search courses"
+                                              />
+                                              
+                                            </button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="filter-search">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected> <span> Sort By: </span> Latest </option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </form>
+                        <!-- search and filter ends -->
+
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-1.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-2.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-3.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-4.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-5.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-6.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-2.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-1.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-5.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="tab-pane fade" id="kindergarten-tab-pane" role="tabpanel" aria-labelledby="kindergarten-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-3.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-1.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-2.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-4.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-5.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                            <div class="tab-pane fade" id="highschool-tab-pane" role="tabpanel" aria-labelledby="highschool-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-5.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-6.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-2.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-1.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-5.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="college-tab-pane" role="tabpanel" aria-labelledby="college-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-2.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 product-card">
+                                            <img src="img/products/product-1.svg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0">
+                                                <h5 class="card-title">The Three Musketeers, by Alexandre Dumas</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="card-price text-secondary m-0"> $39.00 </p>
+                                                    <ul class="list-unstyled d-flex mb-2">
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                        <li><img src="img/icons/star.svg"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>       
+                                </div>
+                            </div>
+                           
+                          </div>
+
+                       
+                          <!-- pagination -->
+
+                          <nav aria-label="Page navigation brand-pagination">
+                            <ul class="pagination">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                       
+                       
                       
 
                     </div>
