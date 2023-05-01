@@ -9243,6 +9243,9 @@ a, a:hover, a:focus, .btn, .btn-link, .btn-link:hover {
 .search-bar .form-control {
   height: calc(1.6em + 1.5rem + 2px);
 }
+.search-bar .form-control:focus {
+  box-shadow: none;
+}
 .search-bar .form-control::placeholder {
   color: rgba(93, 90, 111, 0.6);
 }

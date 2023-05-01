@@ -633,6 +633,10 @@ html {
 
   .form-control {
     height: calc(1.6em + 1.5rem + 2px);
+
+    &:focus {
+      box-shadow: none;
+    }
   }
 
   .form-control::placeholder {
