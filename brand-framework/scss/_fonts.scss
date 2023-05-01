@@ -29,6 +29,12 @@ src:
         src: 
              url('../fonts/Metropolis/Metropolis-Bold.otf') format('opentype')
       }
+      
+@font-face {
+        font-family: "Inter Medium"; // 700
+        src: 
+             url('../fonts/Inter/Inter-Medium.ttf') format('truetype')
+      }
 
 
 
@@ -38,8 +44,9 @@ src:
  $brand-primary-font-medium: "Metropolis Medium";
  $brand-primary-font-semibold: "Metropolis SemiBold";
  $brand-primary-font-bold: "Metropolis Bold";
-
- /* $brand-secondary-font:'Quicksand', sans-serif; */
+ 
+//  $brand-secondary-font:'Inter', sans-serif; 
+ $brand-secondary-font-medium: 'Inter', sans-serif;
  /* font sizes*/
  /* headings */
 
