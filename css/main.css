@@ -9364,6 +9364,11 @@ a, a:hover, a:focus, .btn, .btn-link, .btn-link:hover {
 .brand-signup-modal {
   padding: 100px 88px;
 }
+@media (max-width: 979px) {
+  .brand-signup-modal {
+    padding: 50px 25px;
+  }
+}
 
 .social-btn {
   width: 36px;

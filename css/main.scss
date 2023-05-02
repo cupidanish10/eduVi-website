@@ -802,6 +802,12 @@ html {
 
 .brand-signup-modal {
   padding: 100px 88px;
+
+  @media (max-width: 979px) {
+    
+      padding: 50px 25px;
+    
+  }
 }
 
 .social-btn {
